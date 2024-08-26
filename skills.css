@@ -1,0 +1,73 @@
+:root{
+    --primary-color: #ffffff;
+    --text-color: #ffffff;
+    --background-light: #ffffff;
+    --header-height: 100vh;
+}
+*, *::before, ::after{
+    box-sizing:border-box;
+}
+
+html{
+    font-size:100%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    line-height:1;
+}
+
+.header-background{
+    background:url("Background2.jpg") center fixed;
+    background-size: contain;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;   
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li{
+    display:inline;
+    margin: 0,10px;
+}
+
+nav ul li a{
+    color:#000000;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+.Skills img{
+    max-width: 250px;
+    border-radius:25%;
+}
+
+.header-content h1, .header-content p{
+    font-size:xx-large;
+    padding:10px;
+}
+
+.header-content h3, .header-content p{
+    font-size: 25px;
+}
